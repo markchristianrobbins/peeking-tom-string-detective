@@ -1,0 +1,175 @@
+{
+	"name": "peeking-tom-string-detective",
+	"displayName": "Peeping Tom String Detective",
+	"version": "1.0.0",
+	"description": "PTSD - Context harvesting peek view engine for lines, identifiers, and quotes.",
+	"license": "MIT",
+	"publisher": "markrobbins",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"keywords": [
+		"find",
+		"line",
+		"picker",
+		"clipboard",
+		"jump"
+	],
+	"categories": [
+		"Other"
+	],
+	"main": "extension.js",
+	"icon": "icon.jpg",
+	"files": [
+		"extension.js",
+		"icon.jpg",
+		"README.md",
+		"AILOG.md",
+		"AGENTS.md",
+		"FEATURES.md",
+		"MANUAL.md",
+		"SPEC.md",
+		"TESTING.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"lint": "echo \"No lint configured yet\"",
+		"test": "echo \"No tests configured yet\"",
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.3",
+		"@types/bun": "^1.3.14",
+		"@types/vscode": "^1.70.0",
+		"@vscode/vsce": "^3.6.2"
+	},
+	"activationEvents": [],
+	"contributes": {
+		"commands": [
+			{
+				"command": "ptsd.orchestrate",
+				"title": "PTSD: Orchestrate Action Search..."
+			},
+			{
+				"command": "ptsd.search.lineExact",
+				"title": "PTSD: Search Current Line Exact"
+			},
+			{
+				"command": "ptsd.search.lineWithin",
+				"title": "PTSD: Search Current Line Within"
+			},
+			{
+				"command": "ptsd.search.quoted",
+				"title": "PTSD: Search Current Quoted Text Within"
+			},
+			{
+				"command": "ptsd.search.identifier",
+				"title": "PTSD: Search Current Identifier Within"
+			},
+			{
+				"command": "ptsd.search.word",
+				"title": "PTSD: Search Current Word Within"
+			},
+			{
+				"command": "ptsd.lineExact.browse",
+				"title": "PTSD: Browse Exact Lines"
+			},
+			{
+				"command": "ptsd.lineExact.next",
+				"title": "PTSD: Next Exact Line"
+			},
+			{
+				"command": "ptsd.lineExact.prev",
+				"title": "PTSD: Previous Exact Line"
+			},
+			{
+				"command": "ptsd.lineExact.copy",
+				"title": "PTSD: Copy Exact Lines"
+			},
+			{
+				"command": "ptsd.lineExact.inject",
+				"title": "PTSD: Inject Exact Lines Below"
+			},
+			{
+				"command": "ptsd.lineWithin.browse",
+				"title": "PTSD: Browse Matching Lines Within"
+			},
+			{
+				"command": "ptsd.lineWithin.next",
+				"title": "PTSD: Next Line Within"
+			},
+			{
+				"command": "ptsd.lineWithin.prev",
+				"title": "PTSD: Previous Line Within"
+			},
+			{
+				"command": "ptsd.lineWithin.copy",
+				"title": "PTSD: Copy Lines Within"
+			},
+			{
+				"command": "ptsd.lineWithin.inject",
+				"title": "PTSD: Inject Lines Within Below"
+			},
+			{
+				"command": "ptsd.quoted.browse",
+				"title": "PTSD: Browse Matching Quotes"
+			},
+			{
+				"command": "ptsd.quoted.next",
+				"title": "PTSD: Next Matching Quote"
+			},
+			{
+				"command": "ptsd.quoted.prev",
+				"title": "PTSD: Previous Matching Quote"
+			},
+			{
+				"command": "ptsd.quoted.copy",
+				"title": "PTSD: Copy Matching Quotes"
+			},
+			{
+				"command": "ptsd.quoted.inject",
+				"title": "PTSD: Inject Matching Quotes Below"
+			},
+			{
+				"command": "ptsd.identifier.browse",
+				"title": "PTSD: Browse Matching Identifiers"
+			},
+			{
+				"command": "ptsd.identifier.next",
+				"title": "PTSD: Next Matching Identifier"
+			},
+			{
+				"command": "ptsd.identifier.prev",
+				"title": "PTSD: Previous Matching Identifier"
+			},
+			{
+				"command": "ptsd.identifier.copy",
+				"title": "PTSD: Copy Matching Identifiers"
+			},
+			{
+				"command": "ptsd.identifier.inject",
+				"title": "PTSD: Inject Matching Identifiers Below"
+			},
+			{
+				"command": "ptsd.word.browse",
+				"title": "PTSD: Browse Matching Words"
+			},
+			{
+				"command": "ptsd.word.next",
+				"title": "PTSD: Next Matching Word"
+			},
+			{
+				"command": "ptsd.word.prev",
+				"title": "PTSD: Previous Matching Word"
+			},
+			{
+				"command": "ptsd.word.copy",
+				"title": "PTSD: Copy Matching Words"
+			},
+			{
+				"command": "ptsd.word.inject",
+				"title": "PTSD: Inject Matching Words Below"
+			}
+		]
+	}
+}
