@@ -43,6 +43,14 @@
 		"@types/vscode": "^1.70.0",
 		"@vscode/vsce": "^3.6.2"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/markchristianrobbins/peeking-tom-string-detective.git"
+	},
+	"bugs": {
+		"url": "https://github.com/markchristianrobbins/peeking-tom-string-detective/issues"
+	},
+	"homepage": "https://github.com/markchristianrobbins/peeking-tom-string-detective#readme",
 	"activationEvents": [],
 	"contributes": {
 		"commands": [

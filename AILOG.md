@@ -18,7 +18,6 @@ AI maintains a commit message here which is cleared when the user indicates they
  -->
 ## Commit Message
 ```text
-docs: reverse engineer peeking-tom-string-detective and populate complete workspace documentation
 ```
 
 ## [2026-06-01T21:28:00Z]
