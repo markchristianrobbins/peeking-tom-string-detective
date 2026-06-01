@@ -12,15 +12,14 @@
 - ▪️[SPEC.md](SPEC.md)
 - ▪️[TESTING.md](TESTING.md)
 
-<!--
-template
 ## [ ] Incoming tasks from chat
-{ai supplied checkboxed task list tree:}
-- [ ] NEW: Fix the keybindings picker to allow search on detail and description
-	- [ ] NEW: Every command should have its own section with links back to command index table
-		- [ ] NEW: each command section should give extensive explaination and example code on how it works
-		- [ ] NEW: several examples may be required
--->
+- [x] NEW: Reverse engineer the Peeping Tom String Detective (PTSD) codebase and update all UPPERCASE.md files
+	- [x] NEW: Document original specifications, data extraction mechanisms, and context hierarchy tracing in SPEC.md
+	- [x] NEW: Detail all feature groups, command structures, and user operations in FEATURES.md
+	- [x] NEW: Outline architecture, file interactions, and algorithmic details in MANUAL.md
+	- [x] NEW: Describe workspace manifest, command definitions, dependencies, and packaging steps in BUILD.md
+	- [x] NEW: Define comprehensive interactive tests, manual validation cases, and exception testing checklists in TESTING.md
+	- [x] NEW: Log development progress and design details in AILOG.md
 
 ## [ ] New Changes
 <!-- template
